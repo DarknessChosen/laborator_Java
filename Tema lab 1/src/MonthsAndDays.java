@@ -8,5 +8,12 @@ public class MonthsAndDays {
         for (int i = 0; i < 12; i++) {
             System.out.println(months[i] + " - " + monthDays[i] + " days");
         }
+        // 2. Display the months that have 31 days.
+        System.out.println("Months with 31 days:");
+        for (int i = 0; i < 12; i++) {
+            if (monthDays[i] == 31) {
+                System.out.println(months[i]);
+            }
+        }
     }
 }
