@@ -15,5 +15,12 @@ public class MonthsAndDays {
                 System.out.println(months[i]);
             }
         }
+        // 3. Display the months that have fewer than 31 days, along with their number of days.
+        System.out.println("Months with fewer than 31 days and their number of days:");
+        for (int i = 0; i < 12; i++) {
+            if (monthDays[i] < 31) {
+                System.out.println(months[i] + " - " + monthDays[i] + " days");
+            }
+        }
     }
 }
