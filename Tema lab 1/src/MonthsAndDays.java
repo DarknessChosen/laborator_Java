@@ -22,5 +22,13 @@ public class MonthsAndDays {
                 System.out.println(months[i] + " - " + monthDays[i] + " days");
             }
         }
+        // 4. Calculate and display the total number of days for months with fewer than 31 days.
+        int totalDaysFewerThan31 = 0;
+        for (int i = 0; i < 12; i++) {
+            if (monthDays[i] < 31) {
+                totalDaysFewerThan31 += monthDays[i];
+            }
+        }
+        System.out.println("Total number of days for months with fewer than 31 days: " + totalDaysFewerThan31 + " days");
     }
 }
