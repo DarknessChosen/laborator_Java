@@ -1,25 +1,36 @@
 public class Student {
-    String fisrtName;
+    String firstName;
     String lastName;
     int groupNumber;
+
+    public Student(String firstName, String lastName, int groupNumber) { // Constructor
+        this.firstName = firstName;
+        this.lastName = lastName;
+        this.groupNumber = groupNumber;
+    }
+
     @Override
-    public String toString{
-        return "Student{"+"first name:"+fisrtName+",last name:"+lastName+"group number:"+groupNumber+"}";
+    public String toString() {
+        return "Student{" + "first name:" + firstName + ", last name:" + lastName + ", group number:" + groupNumber + "}";
     }
-    public String getFisrtName(){
-        return fisrtName;
+
+    public String getFirstName() {
+        return firstName;
     }
-    public void setFisrtName(String fisrtName){
-        this. fisrtName=fisrtName;
+
+    public void setFirstName(String firstName) {
+        this.firstName = firstName;
     }
-    public String getLastName(){
+
+    public String getLastName() {
         return lastName;
     }
-    public  void setLastName(String lastName)
-    {
-        this .lastName=lastName;
+
+    public void setLastName(String lastName) {
+        this.lastName = lastName;
     }
-    public int getGroupNumber(){
+
+    public int getGroupNumber() {
         return groupNumber;
     }
 
@@ -27,16 +38,14 @@ public class Student {
         this.groupNumber = groupNumber;
     }
 
-
-    ///tema ex 1
-
+    // Exercise 1: Get Full Name
     public String getFullName() {
-        Student student = new Student("Iordache", "Maria", 1234); ///se declara un obiect de tipul student
-        String fullName = student.getFullName();
-        System.out.println( fullName);///se afiseaza numele complet
+        return firstName + " " + lastName;
     }
 
-    public double getGrade() { ///pt ex 3,4,5
-        return 0;
+    // Exercise 4: Return Grade
+    public double getGrade() {
+        // Am implementat-o pentru a afisa nota studentului.
+        return 0.0; // Placeholder value
     }
 }
