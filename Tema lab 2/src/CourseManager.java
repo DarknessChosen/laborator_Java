@@ -5,6 +5,7 @@ import java.sql.SQLException;
 import java.sql.Statement;
 import java.util.ArrayList;
 import java.util.List;
+
 public class CourseManager {
     Course[] courses;
 
@@ -26,7 +27,12 @@ public class CourseManager {
 
     public void displayCoursesToConsole() {
         for (Course course : courses) {
-            System.out.println(course.getName());
+            System.out.println(course.getCourseName());
+            System.out.println(course.description);
+            System.out.println(course.getTeacher());
+            for (var student : course.getStudents()) {
+                System.out.println(student);
+            }
         }
     }
 }

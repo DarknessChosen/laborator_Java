@@ -10,8 +10,11 @@ public class Course {
         this.teacher = teacher;
         this.students = students;
     }
+    public Course() {
 
-    public String getName() {
+    }
+
+    public String getCourseName() {
         return name;
     }
 
