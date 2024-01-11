@@ -1,32 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="dbf7d4c4-a9d0-41f7-be7b-e79aeca0301b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../Tema Lab 2 V2/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Tema Lab 2 V2/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Tema Lab 2 V2/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Tema Lab 2 V2/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Tema Lab 2 V2/Tema Lab 2 V2.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Tema Lab 2 V2/src/classes/Classes.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Tema Lab 2 V2/src/classes/Course.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Tema Lab 2 V2/src/classes/CourseManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Tema Lab 2 V2/src/classes/Professor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Tema Lab 2 V2/src/classes/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tema Lab 3 V2.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/courses/Course.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/courses/CourseManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/courses/CourseOperations.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/courses/ManagerCourseOperations.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/courses/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/courses/Professor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/courses/Student.java" afterDir="false" />
-    </list>
+    <list default="true" id="dbf7d4c4-a9d0-41f7-be7b-e79aeca0301b" name="Changes" comment="Tema Lab 3 a doua incercare" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -64,11 +42,15 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1704997045313</updated>
-      <workItem from="1704997046421" duration="299000" />
+      <workItem from="1704997046421" duration="519000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Tema Lab 3 a doua incercare" />
+    <option name="LAST_COMMIT_MESSAGE" value="Tema Lab 3 a doua incercare" />
   </component>
 </project>
